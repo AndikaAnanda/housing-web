@@ -113,10 +113,10 @@ export default function HomePage() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
           {[
             { icon: '🏫', text: '5 menit ke SD, SMP, SMA Negeri terbaik' },
-            { icon: '🏥', text: '10 menit ke RS Universitas Indonesia' },
-            { icon: '🛍️', text: '15 menit ke Margo City & Depok Town Square' },
-            { icon: '🚇', text: '20 menit ke Stasiun MRT Lebak Bulus' },
-            { icon: '🛣️', text: 'Akses langsung Tol Desari & Depok-Antasari' },
+            { icon: '🏥', text: '10 menit ke Universitas' },
+            { icon: '🛍️', text: '15 menit ke Mall' },
+            { icon: '🚇', text: '20 menit ke Pusat Kota' },
+            { icon: '🛣️', text: 'Akses langsung ke Panam' },
           ].map((item, i) => (
             <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'center', padding: '12px 16px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)' }}>
               <span style={{ fontSize: '20px' }}>{item.icon}</span>
