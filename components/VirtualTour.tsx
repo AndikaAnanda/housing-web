@@ -1,10 +1,10 @@
 'use client'
 import { useState } from 'react'
 
-export default function VirtualTour({ tourUrl, mapCoords }: { tourUrl: string; mapCoords: { lat: number; lng: number } }) {
+export default function VirtualTour({ tourUrl, mapEmbedUrl }: { tourUrl: string; mapEmbedUrl: string }) {
   const [tab, setTab] = useState<'tour' | 'map'>('tour')
 
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000!2d${mapCoords.lng}!3d${mapCoords.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1234567890`
+  const mapUrl = mapEmbedUrl
 
   return (
     <div style={{ marginTop: '40px' }}>

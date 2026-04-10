@@ -63,7 +63,7 @@ export default async function HouseDetail({
             <HouseGallery images={house.images} name={house.name} />
             <VirtualTour
               tourUrl={house.virtualTourUrl}
-              mapCoords={housesData.cluster.coordinates}
+              mapEmbedUrl={housesData.cluster.mapEmbedUrl}
             />
           </div>
 
