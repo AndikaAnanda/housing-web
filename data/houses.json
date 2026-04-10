@@ -1,151 +1,140 @@
 {
   "cluster": {
-    "name": "Cluster Verdana Hills",
-    "tagline": "Hunian Premium di Jantung Kota",
-    "location": "Jl. Raya Bojongsari No. 88, Depok, Jawa Barat",
-    "coordinates": { "lat": -6.4014, "lng": 106.7697 },
-    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.9!2d106.7697!3d-6.4014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjQnMDUuMCJTIDEwNsKwNDYnMTAuOSJF!5e0!3m2!1sid!2sid!4v1234567890"
+    "name": "Leonel Cluster",
+    "tagline": "Hunian Nyaman Full Furnish",
+    "location": "Sidomulyo Barat, Pekanbaru, Riau",
+    "owner": "Putri Sinulingga",
+    "whatsapp": "6281380085712",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3!2d101.3890!3d0.4607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a8bae1e4db5f%3A0x2b4e1eb8d7c9e1a!2sSidomulyo%20Barat%2C%20Pekanbaru!5e0!3m2!1sid!2sid!4v1234567890"
   },
   "houses": [
     {
-      "id": "vh-001",
-      "name": "The Emerald",
-      "type": "Hook Corner",
+      "id": "lc-001",
+      "name": "Type 60 — Unit 1",
+      "type": "Type 60/120m²",
       "status": "available",
-      "price": 2850000000,
-      "priceDisplay": "Rp 2,85 Miliar",
+      "salePrice": 550000000,
+      "salePriceDisplay": "Rp 550 Juta",
+      "rentPrice": 17500000,
+      "rentPriceDisplay": "Rp 17,5 Jt/Thn",
+      "rentFurnishedPrice": 22500000,
+      "rentFurnishedPriceDisplay": "Rp 22,5 Jt/Thn (Full Furnish)",
+      "price": 550000000,
+      "priceDisplay": "Rp 550 Juta",
       "specs": {
         "lt": 120,
-        "lb": 90,
-        "kt": 3,
-        "km": 2,
-        "garasi": 2,
-        "lantai": 2
-      },
-      "address": "Blok A No. 1",
-      "description": "Unit hook corner terbaik di Cluster Verdana Hills. Posisi strategis di sudut dengan dua sisi taman, memberikan sirkulasi udara dan pencahayaan alami yang optimal. Desain modern minimalis dengan finishing premium.",
-      "features": ["Smart Home System", "AC di Setiap Kamar", "Water Heater", "Kanopi Garasi", "Taman Privat", "CCTV 24 Jam"],
-      "images": [
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80"
-      ],
-      "virtualTourUrl": "https://my.matterport.com/show/?m=SxQL3iGyvQk",
-      "whatsapp": "6281234567890"
-    },
-    {
-      "id": "vh-002",
-      "name": "The Sapphire",
-      "type": "Middle Unit",
-      "status": "available",
-      "price": 2200000000,
-      "priceDisplay": "Rp 2,2 Miliar",
-      "specs": {
-        "lt": 90,
-        "lb": 70,
-        "kt": 3,
-        "km": 2,
+        "lb": 60,
+        "kt": 2,
+        "km": 1,
         "garasi": 1,
-        "lantai": 2
+        "lantai": 1
       },
-      "address": "Blok A No. 2",
-      "description": "Unit middle dengan desain interior modern dan layout yang efisien. Cocok untuk keluarga muda yang menginginkan hunian nyaman dengan harga terjangkau namun tetap eksklusif.",
-      "features": ["Smart Home System", "AC di Setiap Kamar", "Water Heater", "Dapur Semi-Island", "CCTV 24 Jam", "Rooftop Garden"],
+      "address": "Leonel Cluster, Sidomulyo Barat, Pekanbaru",
+      "description": "Hunian nyaman tipe 60/120m² dengan 2 kamar tidur dan 1 kamar mandi. Tersedia untuk dijual maupun dikontrakkan, full furnish tersedia dengan tambahan biaya. Sertifikat atas nama pribadi.",
+      "features": ["Full Furnish Tersedia", "2 Kamar Tidur", "1 Kamar Mandi", "Garasi", "Sertifikat Pribadi", "Siap Huni"],
       "images": [
         "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
         "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
-        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80",
-        "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=1200&q=80",
-        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80"
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80"
       ],
-      "virtualTourUrl": "https://my.matterport.com/show/?m=SxQL3iGyvQk",
-      "whatsapp": "6281234567890"
+      "virtualTourUrl": "",
+      "whatsapp": "6281380085712"
     },
     {
-      "id": "vh-003",
-      "name": "The Topaz",
-      "type": "Middle Unit",
-      "status": "indent",
-      "price": 2200000000,
-      "priceDisplay": "Rp 2,2 Miliar",
+      "id": "lc-002",
+      "name": "Type 60 — Unit 2",
+      "type": "Type 60/120m²",
+      "status": "available",
+      "salePrice": 550000000,
+      "salePriceDisplay": "Rp 550 Juta",
+      "rentPrice": 17500000,
+      "rentPriceDisplay": "Rp 17,5 Jt/Thn",
+      "rentFurnishedPrice": 22500000,
+      "rentFurnishedPriceDisplay": "Rp 22,5 Jt/Thn (Full Furnish)",
+      "price": 550000000,
+      "priceDisplay": "Rp 550 Juta",
       "specs": {
-        "lt": 90,
-        "lb": 70,
-        "kt": 3,
-        "km": 2,
+        "lt": 120,
+        "lb": 60,
+        "kt": 2,
+        "km": 1,
         "garasi": 1,
-        "lantai": 2
+        "lantai": 1
       },
-      "address": "Blok A No. 3",
-      "description": "Unit middle premium dengan view taman belakang. Interior dirancang dengan konsep open plan yang lapang. Tersedia opsi KPR dengan cicilan ringan mulai dari 12 jutaan per bulan.",
-      "features": ["Smart Home System", "AC di Setiap Kamar", "Water Heater", "View Taman", "CCTV 24 Jam", "Storage Room"],
-      "images": [
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600047508788-786f3865b4cf?w=1200&q=80",
-        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=80",
-        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?w=1200&q=80",
-        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=1200&q=80"
-      ],
-      "virtualTourUrl": "https://my.matterport.com/show/?m=SxQL3iGyvQk",
-      "whatsapp": "6281234567890"
-    },
-    {
-      "id": "vh-004",
-      "name": "The Amber",
-      "type": "Middle Unit",
-      "status": "sold",
-      "price": 2200000000,
-      "priceDisplay": "Rp 2,2 Miliar",
-      "specs": {
-        "lt": 90,
-        "lb": 70,
-        "kt": 3,
-        "km": 2,
-        "garasi": 1,
-        "lantai": 2
-      },
-      "address": "Blok A No. 4",
-      "description": "Unit eksklusif dengan aksen warm-tone interior yang hangat dan elegan. Dekat dengan fasilitas taman bermain cluster dan area komunal.",
-      "features": ["Smart Home System", "AC di Setiap Kamar", "Water Heater", "Dekat Taman", "CCTV 24 Jam", "Home Office Room"],
+      "address": "Leonel Cluster, Sidomulyo Barat, Pekanbaru",
+      "description": "Hunian nyaman tipe 60/120m² dengan 2 kamar tidur dan 1 kamar mandi. Tersedia untuk dijual maupun dikontrakkan, full furnish tersedia dengan tambahan biaya. Sertifikat atas nama pribadi.",
+      "features": ["Full Furnish Tersedia", "2 Kamar Tidur", "1 Kamar Mandi", "Garasi", "Sertifikat Pribadi", "Siap Huni"],
       "images": [
         "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
         "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1200&q=80",
-        "https://images.unsplash.com/photo-1574691250077-03a929faece5?w=1200&q=80",
-        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=80",
-        "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+        "https://images.unsplash.com/photo-1574691250077-03a929faece5?w=1200&q=80"
       ],
-      "virtualTourUrl": "https://my.matterport.com/show/?m=SxQL3iGyvQk",
-      "whatsapp": "6281234567890"
+      "virtualTourUrl": "",
+      "whatsapp": "6281380085712"
     },
     {
-      "id": "vh-005",
-      "name": "The Diamond",
-      "type": "Hook End",
+      "id": "lc-003",
+      "name": "Type 100 — Unit 1",
+      "type": "Type 100/150m²",
       "status": "available",
-      "price": 3100000000,
-      "priceDisplay": "Rp 3,1 Miliar",
+      "salePrice": 650000000,
+      "salePriceDisplay": "Rp 650 Juta",
+      "rentPrice": 20000000,
+      "rentPriceDisplay": "Rp 20 Jt/Thn",
+      "rentFurnishedPrice": 25000000,
+      "rentFurnishedPriceDisplay": "Rp 25 Jt/Thn (Full Furnish)",
+      "price": 650000000,
+      "priceDisplay": "Rp 650 Juta",
       "specs": {
-        "lt": 140,
-        "lb": 105,
-        "kt": 4,
-        "km": 3,
-        "garasi": 2,
-        "lantai": 2
+        "lt": 150,
+        "lb": 100,
+        "kt": 3,
+        "km": 2,
+        "garasi": 1,
+        "lantai": 1
       },
-      "address": "Blok A No. 5",
-      "description": "Unit hook end terluas di Cluster Verdana Hills. Dengan luas tanah 140m² dan 4 kamar tidur, unit ini ideal untuk keluarga besar. Posisi ujung memberikan privasi maksimal dan akses langsung ke taman cluster.",
-      "features": ["Smart Home System", "AC di Setiap Kamar", "Water Heater", "Kolam Renang Pribadi", "Taman Luas", "CCTV 24 Jam", "Home Theater Room", "Rooftop Deck"],
+      "address": "Leonel Cluster, Sidomulyo Barat, Pekanbaru",
+      "description": "Hunian luas tipe 100/150m² dengan 3 kamar tidur dan 2 kamar mandi. Dijual dengan gratis balik nama, sertifikat atas nama pribadi. Tersedia opsi kontrak dengan full furniture.",
+      "features": ["Full Furnish Tersedia", "3 Kamar Tidur", "2 Kamar Mandi", "Garasi", "Free Balik Nama", "Sertifikat Pribadi"],
       "images": [
-        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1200&q=80",
-        "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80",
-        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=1200&q=80",
-        "https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=1200&q=80"
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80"
       ],
-      "virtualTourUrl": "https://my.matterport.com/show/?m=SxQL3iGyvQk",
-      "whatsapp": "6281234567890"
+      "virtualTourUrl": "",
+      "whatsapp": "6281380085712"
+    },
+    {
+      "id": "lc-004",
+      "name": "Type 100 — Unit 2",
+      "type": "Type 100/150m²",
+      "status": "available",
+      "salePrice": 650000000,
+      "salePriceDisplay": "Rp 650 Juta",
+      "rentPrice": 20000000,
+      "rentPriceDisplay": "Rp 20 Jt/Thn",
+      "rentFurnishedPrice": 25000000,
+      "rentFurnishedPriceDisplay": "Rp 25 Jt/Thn (Full Furnish)",
+      "price": 650000000,
+      "priceDisplay": "Rp 650 Juta",
+      "specs": {
+        "lt": 150,
+        "lb": 100,
+        "kt": 3,
+        "km": 2,
+        "garasi": 1,
+        "lantai": 1
+      },
+      "address": "Leonel Cluster, Sidomulyo Barat, Pekanbaru",
+      "description": "Hunian luas tipe 100/150m² dengan 3 kamar tidur dan 2 kamar mandi. Dijual dengan gratis balik nama, sertifikat atas nama pribadi. Tersedia opsi kontrak dengan full furniture.",
+      "features": ["Full Furnish Tersedia", "3 Kamar Tidur", "2 Kamar Mandi", "Garasi", "Free Balik Nama", "Sertifikat Pribadi"],
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
+        "https://images.unsplash.com/photo-1600047508788-786f3865b4cf?w=1200&q=80",
+        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=80"
+      ],
+      "virtualTourUrl": "",
+      "whatsapp": "6281380085712"
     }
   ]
 }

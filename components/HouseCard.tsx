@@ -62,12 +62,28 @@ export default function HouseCard({ house, index }: { house: House; index: numbe
         <div style={{ padding: '24px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '8px' }}>
             <div>
-              <h3 style={{ fontSize: '22px', fontWeight: 700, color: '#FAFAF8', marginBottom: '2px' }}>{house.name}</h3>
-              <p style={{ fontSize: '12px', color: 'rgba(250,250,248,0.4)', letterSpacing: '1px' }}>{house.address}</p>
+              <h3 style={{ fontSize: '18px', fontWeight: 700, color: '#FAFAF8', marginBottom: '2px' }}>{house.name}</h3>
+              <p style={{ fontSize: '12px', color: 'rgba(250,250,248,0.4)', letterSpacing: '1px' }}>{house.type}</p>
             </div>
-            <div style={{ textAlign: 'right' }}>
-              <div style={{ fontSize: '20px', fontWeight: 700, color: '#C9A96E', fontFamily: 'Playfair Display, serif' }}>{house.priceDisplay}</div>
-              <div style={{ fontSize: '10px', color: 'rgba(250,250,248,0.4)', letterSpacing: '1px' }}>HARGA TOTAL</div>
+            <div style={{ textAlign: 'right', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+              {house.salePriceDisplay && (
+                <div>
+                  <div style={{ fontSize: '16px', fontWeight: 700, color: '#C9A96E', fontFamily: 'Playfair Display, serif' }}>{house.salePriceDisplay}</div>
+                  <div style={{ fontSize: '9px', color: 'rgba(250,250,248,0.4)', letterSpacing: '1px' }}>HARGA JUAL</div>
+                </div>
+              )}
+              {house.rentPriceDisplay && (
+                <div style={{ marginTop: house.salePriceDisplay ? '4px' : 0 }}>
+                  <div style={{ fontSize: '13px', fontWeight: 600, color: '#6EC9A9' }}>{house.rentPriceDisplay}</div>
+                  <div style={{ fontSize: '9px', color: 'rgba(250,250,248,0.4)', letterSpacing: '1px' }}>HARGA SEWA</div>
+                </div>
+              )}
+              {!house.salePriceDisplay && !house.rentPriceDisplay && (
+                <div>
+                  <div style={{ fontSize: '20px', fontWeight: 700, color: '#C9A96E', fontFamily: 'Playfair Display, serif' }}>{house.priceDisplay}</div>
+                  <div style={{ fontSize: '10px', color: 'rgba(250,250,248,0.4)', letterSpacing: '1px' }}>HARGA TOTAL</div>
+                </div>
+              )}
             </div>
           </div>
 

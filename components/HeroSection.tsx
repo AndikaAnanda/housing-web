@@ -71,7 +71,7 @@ export default function HeroSection() {
             animation: 'fadeInUp 0.8s ease forwards',
           }}
         >
-          CLUSTER EKSKLUSIF — 5 UNIT TERBATAS
+          DIJUAL & DIKONTRAKKAN — READY 4 UNIT
         </div>
 
         <h1
@@ -83,10 +83,10 @@ export default function HeroSection() {
             animation: 'fadeInUp 0.8s 0.2s ease both',
           }}
         >
-          Rumah Impian
+          Hunian Nyaman
           <br />
           <span style={{ color: '#C9A96E', fontStyle: 'italic' }}>
-            di Example Houses
+            Leonel Cluster
           </span>
         </h1>
 
@@ -100,8 +100,8 @@ export default function HeroSection() {
             animation: 'fadeInUp 0.8s 0.4s ease both',
           }}
         >
-          Hunian premium modern dengan konsep green living. Lokasi strategis di
-          Pekanbaru, hanya 5 unit tersedia.
+          Full Furnish tersedia. Tipe 60/120m² & 100/150m².
+          Sidomulyo Barat, Pekanbaru — Ready 4 Unit.
         </p>
 
         <div
@@ -144,7 +144,7 @@ export default function HeroSection() {
             LIHAT PROPERTI
           </a>
           <a
-            href="https://wa.me/6281234567890"
+            href="https://wa.me/6281380085712"
             target="_blank"
             style={{
               border: '1px solid rgba(201,169,110,0.5)',
@@ -195,10 +195,10 @@ export default function HeroSection() {
         }}
       >
         {[
-          { num: '5', label: 'Unit Eksklusif' },
-          { num: '5', label: 'Unit Tersedia' },
-          { num: '100–150m²', label: 'Luas Tanah' },
-          { num: '550Jt', label: 'Mulai dari' },
+          { num: '4', label: 'Unit Ready' },
+          { num: '2', label: 'Tipe Rumah' },
+          { num: '60–150m²', label: 'Luas Bangunan' },
+          { num: '550Jt', label: 'Harga Jual Mulai' },
         ].map((stat, i) => (
           <div
             key={i}

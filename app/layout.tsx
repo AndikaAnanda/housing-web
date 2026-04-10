@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import './globals.css'
 import { Playfair_Display, DM_Sans } from 'next/font/google'
 
 
@@ -16,11 +15,11 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Example Houses – Cluster Hunian Premium Pekanbaru',
-  description: 'Temukan rumah impian Anda di Cluster Example Houses, hunian premium dengan desain modern di Pekanbaru.',
+  title: 'Leonel Cluster – Cluster Hunian Premium Pekanbaru',
+  description: 'Temukan rumah impian Anda di Leonel Cluster, hunian premium dengan desain modern di Pekanbaru.',
   openGraph: {
-    title: 'Example Houses – Cluster Hunian Premium',
-    description: 'Hunian premium 5 unit eksklusif di Pekanbaru',
+    title: 'Leonel Cluster – Cluster Hunian Premium',
+    description: 'Hunian premium 4 unit eksklusif di Pekanbaru',
     images: ['/og-image.jpg'],
   },
 }

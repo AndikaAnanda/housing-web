@@ -6,8 +6,8 @@ export default function ContactForm({ houseName }: { houseName?: string }) {
   const [sent, setSent] = useState(false)
 
   const handleWA = () => {
-    const msg = encodeURIComponent(`Halo, saya ${form.name}.\n\nSaya tertarik dengan ${form.interest || 'properti'} di Cluster Verdana Hills.\n\n${form.message}\n\nNomor saya: ${form.phone}`)
-    window.open(`https://wa.me/6281234567890?text=${msg}`, '_blank')
+    const msg = encodeURIComponent(`Halo, saya ${form.name}.\n\nSaya tertarik dengan ${form.interest || 'properti'} di Leonel Cluster.\n\n${form.message}\n\nNomor saya: ${form.phone}`)
+    window.open(`https://wa.me/6281380085712?text=${msg}`, '_blank')
     setSent(true)
   }
 
@@ -34,9 +34,8 @@ export default function ContactForm({ houseName }: { houseName?: string }) {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
               {[
-                { icon: '📱', label: 'WhatsApp', val: '+62 812-3456-7890' },
-                { icon: '📧', label: 'Email', val: 'sales@verdanahills.id' },
-                { icon: '🕐', label: 'Jam Operasional', val: 'Senin – Sabtu, 08.00–17.00 WIB' },
+                { icon: '📱', label: 'WhatsApp Putri', val: '+62 813-8008-5712' },
+                { icon: '🕐', label: 'Jam Operasional', val: 'Senin – Minggu, 08.00–20.00 WIB' },
               ].map((c, i) => (
                 <div key={i} style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
                   <div style={{ width: '44px', height: '44px', background: 'rgba(201,169,110,0.1)', border: '1px solid rgba(201,169,110,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', flexShrink: 0 }}>
@@ -86,11 +85,10 @@ export default function ContactForm({ houseName }: { houseName?: string }) {
                       onBlur={e => (e.target as HTMLElement).style.borderColor = 'rgba(255,255,255,0.1)'}
                     >
                       <option value="">Semua Unit</option>
-                      <option>The Emerald</option>
-                      <option>The Sapphire</option>
-                      <option>The Topaz</option>
-                      <option>The Amber</option>
-                      <option>The Diamond</option>
+                      <option>Type 60 — Unit 1</option>
+                      <option>Type 60 — Unit 2</option>
+                      <option>Type 100 — Unit 1</option>
+                      <option>Type 100 — Unit 2</option>
                     </select>
                   </div>
                 </div>

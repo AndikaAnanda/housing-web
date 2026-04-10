@@ -33,11 +33,12 @@ export default function HomePage() {
         <div style={{ marginBottom: '60px' }}>
           <div style={{ fontSize: '11px', letterSpacing: '4px', color: '#C9A96E', marginBottom: '16px' }}>PILIHAN PROPERTI</div>
           <h2 style={{ fontSize: 'clamp(36px, 5vw, 56px)', fontWeight: 800, lineHeight: 1.1 }}>
-            5 Unit Tersedia<br />
-            <span style={{ color: '#C9A96E', fontStyle: 'italic' }}>di Example Houses</span>
+            4 Unit Ready<br />
+            <span style={{ color: '#C9A96E', fontStyle: 'italic' }}>Leonel Cluster</span>
           </h2>
-          <p style={{ color: 'rgba(250,250,248,0.5)', marginTop: '16px', maxWidth: '480px', lineHeight: 1.7 }}>
-            Setiap unit dirancang dengan standar premium. Temukan hunian yang sesuai dengan kebutuhan dan impian Anda.
+          <p style={{ color: 'rgba(250,250,248,0.5)', marginTop: '16px', maxWidth: '540px', lineHeight: 1.7 }}>
+            Dijual &amp; Dikontrakkan. Sidomulyo Barat, Pekanbaru. Full Furnish tersedia (+5 jt).
+            Hubungi owner langsung: <strong style={{ color: '#C9A96E' }}>Putri Sinulingga • 0813-8008-5712</strong>
           </p>
         </div>
 
@@ -62,16 +63,16 @@ export default function HomePage() {
         <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '60px' }}>
             <div style={{ fontSize: '11px', letterSpacing: '4px', color: '#C9A96E', marginBottom: '16px' }}>KEUNGGULAN CLUSTER</div>
-            <h2 style={{ fontSize: 'clamp(32px, 4vw, 48px)', fontWeight: 800 }}>Fasilitas Premium</h2>
+            <h2 style={{ fontSize: 'clamp(32px, 4vw, 48px)', fontWeight: 800 }}>Fasilitas &amp; Keunggulan</h2>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '24px' }}>
             {[
-              { icon: '🛡️', title: 'Keamanan 24 Jam', desc: 'Sistem one gate dengan CCTV dan petugas keamanan penuh waktu' },
-              { icon: '🌿', title: 'Taman Cluster', desc: 'Area hijau komunal yang terawat untuk bersantai keluarga' },
-              { icon: '🏊', title: 'Kolam Renang', desc: 'Fasilitas kolam renang bersama yang eksklusif untuk penghuni' },
-              { icon: '🏋️', title: 'Area Olahraga', desc: 'Lapangan basket dan jogging track dalam lingkungan cluster' },
-              { icon: '🔌', title: 'Smart Infrastructure', desc: 'Internet fiber, instalasi listrik 2200W, gas PGN' },
-              { icon: '🅿️', title: 'Parkir Luas', desc: 'Garasi pribadi dengan kapasitas 1–2 kendaraan per unit' },
+              { icon: '🏠', title: 'Full Furnish Tersedia', desc: 'Opsi full furniture dengan tambahan Rp 5 juta/tahun. Siap huni tanpa perlu beli perabot.' },
+              { icon: '📜', title: 'Sertifikat Pribadi', desc: 'Sertifikat atas nama pribadi, gratis balik nama untuk Tipe 100. Investasi aman & legal.' },
+              { icon: '🏡', title: 'Dijual & Dikontrakkan', desc: 'Fleksibel sesuai kebutuhan Anda — beli putus atau kontrak tahunan.' },
+              { icon: '📱', title: 'Hubungi Langsung Owner', desc: 'Tidak melalui perantara. Langsung Owner Putri Sinulingga untuk harga terbaik.' },
+              { icon: '📍', title: 'Lokasi Strategis', desc: 'Sidomulyo Barat, Pekanbaru — dekat pusat kota, sekolah, dan fasilitas umum.' },
+              { icon: '🔑', title: '2 Tipe Unit', desc: 'Tipe 60/120m² (2KT, 1KM) dan Tipe 100/150m² (3KT, 2KM). Sesuaikan kebutuhan keluarga.' },
             ].map((f, i) => (
               <div key={i} style={{
                 background: 'linear-gradient(145deg, #12121A, #1C1C28)',
@@ -103,20 +104,20 @@ export default function HomePage() {
       <div>
         <div style={{ fontSize: '11px', letterSpacing: '4px', color: '#C9A96E', marginBottom: '16px' }}>LOKASI STRATEGIS</div>
         <h2 style={{ fontSize: 'clamp(32px, 4vw, 48px)', fontWeight: 800, marginBottom: '24px' }}>
-          Di Jantung<br />
+          Sidomulyo Barat<br />
           <span style={{ color: '#C9A96E', fontStyle: 'italic' }}>Kota Pekanbaru</span>
         </h2>
         <p style={{ color: 'rgba(250,250,248,0.5)', lineHeight: 1.8, marginBottom: '32px' }}>
           Sidomulyo Barat, Pekanbaru, Riau.<br />
-          Lokasi premium dengan akses mudah ke berbagai fasilitas publik.
+          Lokasi nyaman dengan akses mudah ke berbagai fasilitas publik.
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
           {[
-            { icon: '🏫', text: '5 menit ke SD, SMP, SMA Negeri terbaik' },
-            { icon: '🏥', text: '10 menit ke Universitas' },
-            { icon: '🛍️', text: '15 menit ke Mall' },
-            { icon: '🚇', text: '20 menit ke Pusat Kota' },
-            { icon: '🛣️', text: 'Akses langsung ke Panam' },
+            { icon: '🏫', text: 'Dekat sekolah negeri & swasta terbaik' },
+            { icon: '🏥', text: 'Dekat rumah sakit & klinik kesehatan' },
+            { icon: '🛒', text: 'Dekat pusat perbelanjaan & pasar' },
+            { icon: '🚧', text: 'Akses mudah ke jalan Sudirman & Panam' },
+            { icon: '👨‍👩‍👧', text: 'Lingkungan aman dan nyaman untuk keluarga' },
           ].map((item, i) => (
             <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'center', padding: '12px 16px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)' }}>
               <span style={{ fontSize: '20px' }}>{item.icon}</span>
@@ -128,7 +129,7 @@ export default function HomePage() {
 
       <div style={{ overflow: 'hidden', border: '1px solid rgba(201,169,110,0.2)', height: '480px' }}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63423.17!2d106.7697!3d-6.4014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec940e5eb69b%3A0x53063f71ff87adcd!2sDepok%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1234567890"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3!2d101.3890!3d0.4607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a8bae1e4db5f%3A0x2b4e1eb8d7c9e1a!2sSidomulyo%20Barat%2C%20Pekanbaru!5e0!3m2!1sid!2sid!4v1234567890"
           width="100%" height="100%" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"
         />
       </div>

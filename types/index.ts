@@ -15,6 +15,12 @@ export type House = {
   status: 'available' | 'indent' | 'sold'
   price: number
   priceDisplay: string
+  salePrice?: number
+  salePriceDisplay?: string
+  rentPrice?: number
+  rentPriceDisplay?: string
+  rentFurnishedPrice?: number
+  rentFurnishedPriceDisplay?: string
   specs: HouseSpecs
   address: string
   description: string

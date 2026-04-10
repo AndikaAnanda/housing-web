@@ -25,10 +25,10 @@ export default function Navbar() {
       <Link href="/" style={{ textDecoration: 'none' }}>
         <div>
           <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '22px', fontWeight: 700, color: '#C9A96E', letterSpacing: '2px' }}>
-            EXAMPLE
+            LEONEL
           </div>
           <div style={{ fontSize: '9px', letterSpacing: '5px', color: 'rgba(201,169,110,0.6)', marginTop: '-2px' }}>
-            HOUSE RESIDENCE
+            CLUSTER
           </div>
         </div>
       </Link>
@@ -52,7 +52,7 @@ export default function Navbar() {
             {item.label}
           </a>
         ))}
-        <a href="https://wa.me/6281234567890" target="_blank" style={{
+        <a href="https://wa.me/6281380085712" target="_blank" style={{
           background: 'linear-gradient(135deg, #C9A96E, #8B6914)',
           color: '#0A0A0F', padding: '10px 24px', borderRadius: '2px',
           textDecoration: 'none', fontSize: '12px', fontWeight: 600,
