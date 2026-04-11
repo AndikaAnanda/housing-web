@@ -33,9 +33,16 @@
       "description": "Hunian nyaman tipe 60/120m² dengan 2 kamar tidur dan 1 kamar mandi. Tersedia untuk dijual maupun dikontrakkan, full furnish tersedia dengan tambahan biaya. Sertifikat atas nama pribadi.",
       "features": ["Full Furnish Tersedia", "2 Kamar Tidur", "1 Kamar Mandi", "Garasi", "Sertifikat Pribadi", "Siap Huni"],
       "images": [
-        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
-        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80"
+        "/type60/img1.jpg",
+        "/type60/img2.jpg",
+        "/type60/img3.jpg",
+        "/type60/img4.jpg",
+        "/type60/img5.jpg",
+        "/type60/img6.jpg",
+        "/type60/img7.jpg",
+        "/type60/img8.jpg",
+        "/type60/img9.jpg",
+        "/type60/img10.jpg"
       ],
       "virtualTourUrl": "",
       "whatsapp": "6281380085712"
@@ -65,9 +72,16 @@
       "description": "Hunian nyaman tipe 60/120m² dengan 2 kamar tidur dan 1 kamar mandi. Tersedia untuk dijual maupun dikontrakkan, full furnish tersedia dengan tambahan biaya. Sertifikat atas nama pribadi.",
       "features": ["Full Furnish Tersedia", "2 Kamar Tidur", "1 Kamar Mandi", "Garasi", "Sertifikat Pribadi", "Siap Huni"],
       "images": [
-        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
-        "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1200&q=80",
-        "https://images.unsplash.com/photo-1574691250077-03a929faece5?w=1200&q=80"
+        "/type60/img1.jpg",
+        "/type60/img2.jpg",
+        "/type60/img3.jpg",
+        "/type60/img4.jpg",
+        "/type60/img5.jpg",
+        "/type60/img6.jpg",
+        "/type60/img7.jpg",
+        "/type60/img8.jpg",
+        "/type60/img9.jpg",
+        "/type60/img10.jpg"
       ],
       "virtualTourUrl": "",
       "whatsapp": "6281380085712"
@@ -137,9 +151,16 @@
       "description": "Hunian luas tipe 100/150m² dengan 3 kamar tidur dan 2 kamar mandi. Dijual dengan gratis balik nama, sertifikat atas nama pribadi. Tersedia opsi kontrak dengan full furniture.",
       "features": ["Full Furnish Tersedia", "3 Kamar Tidur", "2 Kamar Mandi", "Garasi", "Free Balik Nama", "Sertifikat Pribadi"],
       "images": [
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600047508788-786f3865b4cf?w=1200&q=80",
-        "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=80"
+        "/type100/img1.jpg",
+        "/type100/img2.jpg",
+        "/type100/img3.jpg",
+        "/type100/img4.jpg",
+        "/type100/img5.jpg",
+        "/type100/img6.jpg",
+        "/type100/img7.jpg",
+        "/type100/img8.jpg",
+        "/type100/img9.jpg",
+        "/type100/img10.jpg"
       ],
       "virtualTourUrl": "",
       "whatsapp": "6281380085712"
