@@ -27,7 +27,7 @@ export default async function HouseDetail({
   const status = statusConfig[house.status];
 
   const waMsg = encodeURIComponent(
-    `Halo, saya tertarik dengan unit *${house.name}* (${house.priceDisplay}) di Cluster Verdana Hills.\n\nBisa bantu informasi lebih lanjut?`,
+    `Halo, saya tertarik dengan unit *${house.name}* (${house.priceDisplay}) di Leonel Cluster.\n\nBisa bantu informasi lebih lanjut?`,
   );
 
   return (

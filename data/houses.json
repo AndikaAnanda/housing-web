@@ -97,9 +97,17 @@
       "description": "Hunian luas tipe 100/150m² dengan 3 kamar tidur dan 2 kamar mandi. Dijual dengan gratis balik nama, sertifikat atas nama pribadi. Tersedia opsi kontrak dengan full furniture.",
       "features": ["Full Furnish Tersedia", "3 Kamar Tidur", "2 Kamar Mandi", "Garasi", "Free Balik Nama", "Sertifikat Pribadi"],
       "images": [
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80"
+        "/type100/img1.jpg",
+        "/type100/img2.jpg",
+        "/type100/img3.jpg",
+        "/type100/img4.jpg",
+        "/type100/img5.jpg",
+        "/type100/img6.jpg",
+        "/type100/img7.jpg",
+        "/type100/img8.jpg",
+        "/type100/img9.jpg",
+        "/type100/img10.jpg"
+        
       ],
       "virtualTourUrl": "",
       "whatsapp": "6281380085712"
